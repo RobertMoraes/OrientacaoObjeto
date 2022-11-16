@@ -2,21 +2,23 @@ package orientacaoobjeto.composicaoHeranca;
 
 public class Jogo {
     public static void main(String[] args) {
-        Jogador j1 = new Jogador();
-        j1.x = 10;
-        j1.y = 10;
+        Monstro monstroJogador = new Monstro();
+        monstroJogador.x = 10;
+        monstroJogador.y = 10;
 
-        Jogador j2 = new Jogador();
-        j2.x = 10;
-        j2.y = 11;
+        Heroi heroiJogador = new Heroi();
+        heroiJogador.x = 10;
+        heroiJogador.y = 11;
 
-        System.out.println("Vida Player 01 :: " + j1.vida);
-        System.out.println("Vida Player 02 :: " + j2.vida);
+        System.out.println("Vida Player 01 :: " + monstroJogador.vida);
+        System.out.println("Vida Player 02 :: " + heroiJogador.vida);
 
-        j1.atacar(j2);
+        monstroJogador.atacar(heroiJogador);
+        heroiJogador.atacar(monstroJogador);
 
-        System.out.println("Vida Player 01 :: " + j1.vida);
-        System.out.println("Vida Player 02 :: " + j2.vida);
+        System.out.println("Monstro tem :: " + monstroJogador.vida);
+        System.out.println("Heroi tem :: " + heroiJogador.vida);
+
 
     }
 }
