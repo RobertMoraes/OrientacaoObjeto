@@ -1,4 +1,7 @@
-package orientacaoobjeto.composicaoHeranca.composicaoDesafioHeranca;
+package orientacaoobjeto.composicaoHeranca.teste;
+
+import orientacaoobjeto.composicaoHeranca.composicaoDesafioHeranca.CarroCivic;
+import orientacaoobjeto.composicaoHeranca.composicaoDesafioHeranca.CarroJetta;
 
 public class Corrida {
     public static void main(String[] args) {

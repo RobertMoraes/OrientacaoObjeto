@@ -1,11 +1,11 @@
 package orientacaoobjeto.composicaoHeranca.composicaoDesafioHeranca;
 
 public class CarroJetta extends Carro{
-    CarroJetta(){
+    public CarroJetta(){
         this(250);
     }
 
-    CarroJetta(int velocidadeMaxima){
+    public CarroJetta(int velocidadeMaxima){
         super(velocidadeMaxima);
         delta = 15;
     }
