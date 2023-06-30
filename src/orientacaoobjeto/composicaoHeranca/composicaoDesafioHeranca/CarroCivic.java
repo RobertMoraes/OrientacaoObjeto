@@ -8,7 +8,7 @@ public class CarroCivic extends Carro {
 
     public CarroCivic(int velocidadeMaxima){
         super(velocidadeMaxima);
-        delta = 10;
+//        delta = 10;
     }
 
 //     @Override

@@ -1,10 +1,9 @@
 package orientacaoobjeto.polimorfismo;
 
-public class Arroz {
-
+public abstract class Comida {
 	private double peso;
 
-	public Arroz(double peso) {
+	public Comida(double peso) {
 		setPeso(peso);
 	}
 
