@@ -1,4 +1,4 @@
-package lambdas;
+package orientacaoobjeto.lambdas;
 
 public class Multiplicar implements Calculo {
 
