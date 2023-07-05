@@ -1,4 +1,4 @@
-package lambdas;
+package orientacaoobjeto.lambdas;
 
 import java.util.function.BinaryOperator;
 
