@@ -24,7 +24,7 @@ public class OperadorUnario {
 			System.out.println("Reseultado: " + result);
 		}
 
-		for (int i = 0; i <= 10; i++) {
+		for (int i = 0; i <= 100; i++) {
 			int result = i * tabuada;
 			if (result % 2 == 0) {
 				System.out.println("Reseultado numero PAR: " + result);
